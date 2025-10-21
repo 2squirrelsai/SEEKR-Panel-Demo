@@ -65,7 +65,7 @@ Customer Response
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/2squirrelsai/seekr-demo
    cd ecom-crewai-cs-workflow
    ```
 
