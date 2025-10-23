@@ -7,8 +7,8 @@ Provides efficient similarity search over policy documents.
 import logging
 from typing import List, Dict, Any, Optional
 from langchain_openai import OpenAIEmbeddings
-from langchain_chroma import Chroma
-from langchain.schema import Document
+from langchain_community.vectorstores import Chroma
+from langchain_core.documents import Document
 
 logger = logging.getLogger("ecom_cs_agent.rag")
 
